@@ -1,0 +1,5 @@
+src/main/resources/db.properties
+src/main/java/com/shop/config/DatabaseConnectionFactory.java
+out/
+out-compile-check/
+*.class

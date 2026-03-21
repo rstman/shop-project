@@ -3,48 +3,47 @@ package com.shop.model;
 import java.math.BigDecimal;
 
 public class OrderItem {
+   private int id;
+   private Product product;
+   private int quantity;
+   private BigDecimal price;
 
-    private int id;
-    private Product product;
-    private int quantity;
-    private BigDecimal price;
+   public int getId() {
+      return this.id;
+   }
 
-    public int getId() {
-        return id;
-    }
+   public void setId(int var1) {
+      this.id = var1;
+   }
 
-    public void setId(int id) {
-        this.id = id;
-    }
+   public Product getProduct() {
+      return this.product;
+   }
 
-    public Product getProduct() {
-        return product;
-    }
+   public void setProduct(Product var1) {
+      this.product = var1;
+   }
 
-    public void setProduct(Product product) {
-        this.product = product;
-    }
+   public int getQuantity() {
+      return this.quantity;
+   }
 
-    public int getQuantity() {
-        return quantity;
-    }
+   public void setQuantity(int var1) {
+      this.quantity = var1;
+   }
 
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
-    }
+   public BigDecimal getPrice() {
+      return this.price;
+   }
 
-    public BigDecimal getPrice() {
-        return price;
-    }
+   public void setPrice(BigDecimal var1) {
+      this.price = var1;
+   }
 
-    public void setPrice(BigDecimal price) {
-        this.price = price;
-    }
-
-    public OrderItem(int id, Product product, int quantity, BigDecimal price) {
-        this.id = id;
-        this.product = product;
-        this.quantity = quantity;
-        this.price = price;
-    }
+   public OrderItem(int var1, Product var2, int var3, BigDecimal var4) {
+      this.id = var1;
+      this.product = var2;
+      this.quantity = var3;
+      this.price = var4;
+   }
 }
