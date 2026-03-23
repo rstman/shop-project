@@ -9,29 +9,29 @@ public class Category {
       return this.id;
    }
 
-   public void setId(int var1) {
-      this.id = var1;
+   public void setId(int id) {
+      this.id = id;
    }
 
    public String getName() {
       return this.name;
    }
 
-   public void setName(String var1) {
-      this.name = var1;
+   public void setName(String name) {
+      this.name = name;
    }
 
    public String getDescription() {
       return this.description;
    }
 
-   public void setDescription(String var1) {
-      this.description = var1;
+   public void setDescription(String description) {
+      this.description = description;
    }
 
-   public Category(int var1, String var2, String var3) {
-      this.id = var1;
-      this.name = var2;
-      this.description = var3;
+   public Category(int id, String name, String description) {
+      this.id = id;
+      this.name = name;
+      this.description = description;
    }
 }

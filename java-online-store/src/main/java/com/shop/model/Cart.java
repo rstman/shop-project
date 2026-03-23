@@ -12,29 +12,29 @@ public class Cart {
       return this.id;
    }
 
-   public void setId(int var1) {
-      this.id = var1;
+   public void setId(int id) {
+      this.id = id;
    }
 
    public Customer getCustomer() {
       return this.customer;
    }
 
-   public void setCustomer(Customer var1) {
-      this.customer = var1;
+   public void setCustomer(Customer customer) {
+      this.customer = customer;
    }
 
    public List<CartItem> getItems() {
       return this.items;
    }
 
-   public void setItems(List<CartItem> var1) {
-      this.items = var1;
+   public void setItems(List<CartItem> items) {
+      this.items = items;
    }
 
-   public Cart(int var1, Customer var2, List<CartItem> var3) {
-      this.id = var1;
-      this.customer = var2;
-      this.items = var3;
+   public Cart(int id, Customer customer, List<CartItem> items) {
+      this.id = id;
+      this.customer = customer;
+      this.items = items;
    }
 }

@@ -9,29 +9,29 @@ public class CartItem {
       return this.id;
    }
 
-   public void setId(int var1) {
-      this.id = var1;
+   public void setId(int id) {
+      this.id = id;
    }
 
    public Product getProduct() {
       return this.product;
    }
 
-   public void setProduct(Product var1) {
-      this.product = var1;
+   public void setProduct(Product product) {
+      this.product = product;
    }
 
    public int getQuantity() {
       return this.quantity;
    }
 
-   public void setQuantity(int var1) {
-      this.quantity = var1;
+   public void setQuantity(int quantity) {
+      this.quantity = quantity;
    }
 
-   public CartItem(int var1, Product var2, int var3) {
-      this.id = var1;
-      this.product = var2;
-      this.quantity = var3;
+   public CartItem(int id, Product product, int quantity) {
+      this.id = id;
+      this.product = product;
+      this.quantity = quantity;
    }
 }
